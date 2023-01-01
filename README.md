@@ -99,7 +99,7 @@ gplot(g, nodefillc=nodefillc)
 ## Different layout
 
 ### spring layout (default)
-This is the defaut layout and will be chosen if no layout is specified. The [default parameters to the spring layout algorithm](https://github.com/JuliaGraphs/GraphPlot.jl/blob/master/src/layout.jl#L78) can be changed by supplying an anonymous function, e.g., if nodes appear clustered too tightly together, try
+This is the default layout and will be chosen if no layout is specified. The [default parameters to the spring layout algorithm](https://github.com/JuliaGraphs/GraphPlot.jl/blob/master/src/layout.jl#L78) can be changed by supplying an anonymous function, e.g., if nodes appear clustered too tightly together, try
 ```julia
 layout=(args...)->spring_layout(args...; C=20)
 gplot(g, layout=layout, nodelabel=nodelabel)
@@ -186,4 +186,4 @@ gplot(h)
 
 # Reporting Bugs
 
-Filing an issue to report a bug, counterintuitive behavior, or even to request a feature is extremely valuable in helping me prioritize what to work on, so don't hestitate.
+Filing an issue to report a bug, counterintuitive behavior, or even to request a feature is extremely valuable in helping me prioritize what to work on, so don't hesitate.

@@ -2,47 +2,47 @@ using Base: depwarn
 
 
 function _nv(g)
-    depwarn("`GraphPlot._nv(g)` is deprectated. Use `Graphs.nv(g)` instead.", :_nv)
+    depwarn("`GraphPlot._nv(g)` is deprecated. Use `Graphs.nv(g)` instead.", :_nv)
     return Graphs.nv(g)
 end
 
 function _ne(g)
-    depwarn("`GraphPlot._ne(g)` is deprectated. Use `Graphs.ne(g)` instead.", :_ne)
+    depwarn("`GraphPlot._ne(g)` is deprecated. Use `Graphs.ne(g)` instead.", :_ne)
     return Graphs.ne(g)
 end
 
 function _vertices(g)
-    depwarn("`GraphPlot._vertices(g)` is deprectated. Use `Graphs.vertices(g)` instead.", :_vertices)
+    depwarn("`GraphPlot._vertices(g)` is deprecated. Use `Graphs.vertices(g)` instead.", :_vertices)
     return Graphs.vertices(g)
 end
 
 function _edges(g)
-    depwarn("`GraphPlot._edges(g)` is deprectated. Use `Graphs.edges(g)` instead.", :_edges)
+    depwarn("`GraphPlot._edges(g)` is deprecated. Use `Graphs.edges(g)` instead.", :_edges)
     return Graphs.edges(g)
 end
 
 function _src_index(e, g)
-    depwarn("`GraphPlot._src_index(g)` is deprectated. Use `Graphs.src(e)` instead.", :_src_index)
+    depwarn("`GraphPlot._src_index(g)` is deprecated. Use `Graphs.src(e)` instead.", :_src_index)
     return Graphs.src(e)
 end
 
 function _dst_index(e, g)
-    depwarn("`GraphPlot._dst_index(g)` is deprectated. Use `Graphs.dst(e)` instead.", :_dst_index)
+    depwarn("`GraphPlot._dst_index(g)` is deprecated. Use `Graphs.dst(e)` instead.", :_dst_index)
     return Graphs.dst(e)
 end
 
 function _adjacency_matrix(g)
-    depwarn("`GraphPlot._adjacency_matrix(g)` is deprectated. Use `Graphs.adjacency_matrix(g)` instead.", :_adjacency_matrix)
+    depwarn("`GraphPlot._adjacency_matrix(g)` is deprecated. Use `Graphs.adjacency_matrix(g)` instead.", :_adjacency_matrix)
     return Graphs.adjacency_matrix(g)
 end
 
 function _is_directed(g)
-    depwarn("`GraphPlot._is_directed(g)` is deprectated. Use `Graphs.is_directed(g)` instead.", :_is_directed)
+    depwarn("`GraphPlot._is_directed(g)` is deprecated. Use `Graphs.is_directed(g)` instead.", :_is_directed)
     return Graphs.is_directed(g)
 end
 
 function _laplacian_matrix(g)
-    depwarn("`GraphPlot._laplacian_matrix(g)` is deprectated. Use `Graphs.laplacian_matrix(g)` instead.", :_laplacian_matrix)
+    depwarn("`GraphPlot._laplacian_matrix(g)` is deprecated. Use `Graphs.laplacian_matrix(g)` instead.", :_laplacian_matrix)
     return Graphs.laplacian_matrix(g)
 end
 
